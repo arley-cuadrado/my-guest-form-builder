@@ -1,0 +1,572 @@
+body{
+    background-color: #F1F3F4;
+    overflow-x: hidden;
+}
+
+main{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    background: #fff;
+    /*width: 100%;*/
+    width: auto;
+    margin-top: 0px !important;
+    border-radius: 8px;
+}
+a{
+    text-decoration: none;
+}
+.topbar{
+    background-color: #ffffff;
+}
+.flexbox{
+    display: flex;
+}
+.space-between{
+    font-size: 12px;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+.flexbox-column{
+    flex-flow: column;
+}
+.flexbox-column-reverse{
+    flex-flow: column-reverse;
+}
+.flexbox-next{
+    display: flex;
+    flex-flow: inherit; 
+}
+.block{
+    display: block !important;
+    width: 100%;
+}
+.start{
+    justify-content: flex-start;
+}
+.between{
+    justify-content: space-between;
+}
+.option{
+    width: 10rem;
+    background: #ffffff;
+    padding: 25px 10px;
+    margin-left: 15px;
+    border-radius: 8px;
+    height: 43px;
+}
+.option-1{
+    margin-left: 0px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option img{
+    height: 40px;
+}
+.padding{
+    padding: 15px;
+}
+.margin{
+    margin: 15px;
+}
+.margin-bottom{
+    margin-bottom: 15px;
+}
+.align{
+    align-items: center;
+}
+
+.profile-bg{
+    display: flex;
+    align-items: center;
+}
+
+.profile-bg img{
+    background: linear-gradient(0deg, rgba(253,213,36,1) 0%, rgba(228,53,61,1) 35%);
+    border-radius: 60px;
+    padding: 3px;
+    width: 30px;
+}
+
+.userName{
+    margin-right: 12px;
+}
+
+.form-add form{
+    display: flex;
+    flex-flow: column;
+}
+.lista-formularios{
+    width: 50%;
+    padding-bottom: 16px;
+    border-bottom: 1px gray dashed;
+}
+
+.empty-form{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.empty-form img{
+    width: 250px;
+    margin-bottom: 25px;
+}
+.empty{
+    font-size: 12px !important;
+    color: gray !important;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+/*
+.margen-none{
+    margin-bottom: 0px !important;
+}
+*/
+
+.padding-none{
+    padding: 0px !important;
+}
+
+.full-form{
+    text-align: start;
+}
+.full-form h2{
+    /*border-bottom: solid 1px #F1F3F4;*/
+    /*width: 270px;*/
+    width: auto;
+}
+
+.center-main{
+    display: flex;
+    /*height: 50rem;*/
+    /*height: 30rem;*/
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-main-small{
+    height: auto !important;
+}
+
+
+/*FORM*/
+form{
+    width: 100%;
+}
+.form-input{
+    margin-bottom: 15px;
+}
+.form-input-border input{
+    border: solid 1px gray !important;
+}
+.pregunta-input{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.pregunta-input-gray{
+    background-color: #000;
+    color: white;
+    align-items: center;
+}
+.form-style{
+    background-color: #F1F3F4;
+    padding: 30px 15px 30px 15px;
+    text-align: initial;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.form-style-title{
+    padding: 30px 0px 0px 0px !important;
+}
+.form-style input, textarea, select{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    /*border-bottom: solid 1px #000;*/
+}
+input, select{
+    height: 40px;
+}
+select::after{
+    padding: 0px 15px !important;
+}
+input::after{
+    padding: 0px 15px !important;
+}
+select{
+    margin-bottom: 15px;
+}
+.left-main{
+    align-items: initial;
+    justify-content: flex-start !important;
+}
+.input-title{
+    /*width: 97% !important;*/
+    height: 52px;
+    font-size: 33px;
+    /*padding: 0px 15px;*/
+}
+.input-info{
+    /*width: 97% !important;*/
+    height: 52px;
+    /*padding: 15px 15px;*/
+}
+.next-to{
+    display: flex;
+    justify-content: space-between;
+}
+.setenta{
+    /*width: 70%;*/
+    width: 70%;
+}
+.sesenta{
+    width: 60%;
+}
+.cuarenta{
+    width: 40%;
+}
+.cien{
+    width: 100%;
+}
+.ochenta{
+    width: 80%;
+}
+.veinte{
+    width: 20%;
+}
+
+.smallFont{
+    color: gray;
+    font-size: 12px;
+}
+
+/*-----------------------------------*/
+.radioB{
+    display: flex;
+    flex-flow: column;
+}
+.radioB input{
+    width: auto;
+    height: auto;
+}
+.radio{
+    width: auto !important;
+}
+
+/*--------------------- INPUT EXAMINAR */
+.custom-input-file {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: #d0dce6;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto 0;
+    min-height: 15px;
+    height: 200px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    border-radius: 8px;
+}
+.custom-input-file .input-file {
+    border: 10000px solid transparent;
+    cursor: pointer;
+    font-size: 10000px;
+    margin: 0;
+    opacity: 0;
+    outline: 0 none;
+    padding: 0;
+    position: absolute;
+    right: -1000px;
+    top: -1000px;
+}
+.input-file-input{
+    height: 200px;
+    cursor: pointer;
+    background: #00000008;
+}
+
+/*--------------------- INPUT COLOR */
+.color-picker{
+    text-align: left;
+}
+.color-picker input{
+    height: 40px;
+    /*width: 10%;*/
+    width: 100%;    
+    border: none;
+    margin-bottom: 8px;
+    padding: 0px !important;
+}
+.color-picker p{
+    font-size: 12px;
+}
+.width-picker{
+    width: 100%;
+}
+#salida{
+    font-weight: bold;
+}
+
+/*--------------------- LINE */
+.line{
+    background-color: gray;
+    height: 1px;
+    border: none;
+}
+
+/*--------------------- HS'S */
+
+h4{
+    border-bottom: 1px gray dashed;
+    padding-bottom: 16px;
+}
+
+/*--------------------- BUTTON */
+
+.pregunta-button{
+    display: flex;
+    justify-content: right;
+}
+.pregunta-button-gray{
+    background-color: #000;
+}
+.pregunta-button button{
+    height: 25px;
+    margin-right: 16px;
+}
+
+.form-header{
+    border-bottom: solid 1px #e1e1e1;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.form-footer{
+    border-bottom: solid 1px #e1e1e1;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+button{
+    height: 40px;
+}
+
+/*--------------------- MARGIN'S */
+
+.m-right{
+    margin-right: 50px;
+}
+
+.lista-preguntas{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    margin-left: -40px;
+}
+
+
+/**/
+
+.error-message{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+/**/
+.white-background{
+    background-color: white;
+}
+.padding-b0{
+    padding: 30px 15px 0px 15px !important;
+}
+
+/**/
+.box-shadow{
+    box-shadow: 3px 3px 3px 0px #d4d4d4;
+}
+
+/*TABLE*/
+th{
+    width: 8rem;
+    text-align: left;
+    font-weight: initial;
+}
+table{
+    border-bottom: 1px gray dashed;
+    padding-bottom: 16px;
+}
+.active{
+    font-weight: bold;
+}
+.active-bg{
+    color: #fff;
+    background: #6BCB77;
+}
+
+/*Icons*/
+.title-answers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons img{
+    width: 40px;
+}
+
+
+
+
+/*FORM --------------------------*/
+.MuiPaper-root{
+    border-top: 0px !important;
+}
+.MuiSvgIcon-root{
+    color: #000 !important;
+    /*color: rgba(228,53,61,1) !important;*/    
+}
+.MuiButtonBase-root{
+    color: rgb(149, 149, 149) !important;
+}
+.Mui-checked{
+    color: #000 !important;
+}
+.MuiSwitch-track {
+    background-color: rgb(132, 132, 132) !important;
+}
+.boton-crear{
+    background-color: white;
+    border: 0px solid black;
+    padding: 20px;
+    border-radius: 6px;
+    width: 50%;
+    height: auto;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.nestable-list{
+    margin-bottom: 2rem !important;
+}
+.boton-crear-align{
+    justify-content: initial !important;
+    padding-left: 8px;
+}
+
+.hide{
+    display: none !important;
+}
+
+.left{
+    text-align: left;
+    padding-left: 0px !important;
+}
+
+.enlace-crear{
+    color: red;
+}
+.enlace-crear:hover{
+    background: linear-gradient(0deg, rgba(253,213,36,1) 0%, rgba(228,53,61,1) 35%);
+    color: white;
+}
+
+/*LANDING PAGE*/
+.header-bg{
+    background-color: rgb(181, 181, 181);
+    height: 600px;
+}
+
+.container-flexbox{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1200px;
+}
+
+/* LOGIN FORM */
+.login-form{
+    width: 25rem;
+    background-color: white;
+    padding: 2rem 0rem;
+    border-radius: 4px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.login-form > .App {
+    background-color: green !important;
+}
+*/
+/*
+.login-form:has(.App) {
+    background: red !important;
+}
+*/
+.header-bg-red{
+    background-color: rgba(228,53,61,1);
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+/*
+.login-form .MuiGrid-root{
+    width: 100% !important;
+}
+*/
+
+.login-form .MuiGrid-container{
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    padding-right: 0px;
+}
+.login-form .MuiGrid-root{
+    width: 100%;
+}
+.login-form button{
+    width: 75%;
+}
+.form-title{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.back{
+    width: 75%;
+}
+.back a{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.back .img-rotate{
+    height: 1.5rem;
+    margin-left: 0.5rem;
+    transform: rotate(-180deg);
+}
+.back img{
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
